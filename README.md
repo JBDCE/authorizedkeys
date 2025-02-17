@@ -11,3 +11,8 @@ curl https://raw.githubusercontent.com/JBDCE/authorizedkeys/refs/heads/main/auth
 ## Installing on Linux
 
 curl https://raw.githubusercontent.com/JBDCE/authorizedkeys/refs/heads/main/authorized_keys >> ~\.ssh\authorized_keys
+
+
+## Caveats and unsolved problems
+
+Currently there are no countermeasures for adding a key twice. This is not necessarily a problem as sshd is not complaining but it might cause issues in the future. At which point a duplicate cleanup script should be added.

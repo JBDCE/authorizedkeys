@@ -6,4 +6,8 @@ Im also including plain bash and cmd lines for installing this repository to any
 
 ## Installing on Windows
 
+curl https://raw.githubusercontent.com/JBDCE/authorizedkeys/refs/heads/main/authorized_keys >> %userprofile%\.ssh\authorized_keys
+
 ## Installing on Linux
+
+curl https://raw.githubusercontent.com/JBDCE/authorizedkeys/refs/heads/main/authorized_keys >> ~\.ssh\authorized_keys

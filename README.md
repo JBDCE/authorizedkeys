@@ -10,7 +10,7 @@ curl https://raw.githubusercontent.com/JBDCE/authorizedkeys/refs/heads/main/auth
 
 ## Installing on Linux
 
-curl https://raw.githubusercontent.com/JBDCE/authorizedkeys/refs/heads/main/authorized_keys >> ~\.ssh\authorized_keys
+curl https://raw.githubusercontent.com/JBDCE/authorizedkeys/refs/heads/main/authorized_keys >> ~/.ssh/authorized_keys
 
 
 ## Caveats and unsolved problems
